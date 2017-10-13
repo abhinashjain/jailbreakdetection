@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.2}
+\contentsline {section}{\numberline {2}Spawning processes}{3}{section.7}
+\contentsline {section}{\numberline {3}Checking dynamically loaded libraries}{4}{section.8}
+\contentsline {section}{\numberline {4}Creating files outside sandbox}{5}{section.15}
+\contentsline {section}{\numberline {5}Comparing folder size}{7}{section.16}
+\contentsline {section}{\numberline {6}Checking file permissions - I}{8}{section.17}
+\contentsline {section}{\numberline {7}Checking file permissions - II}{67}{section.18}
+\contentsline {section}{\numberline {8}Analysis and Testing}{100}{section.19}
+\contentsline {section}{\numberline {9}Conclusion}{101}{section.31}
+\contentsline {section}{\numberline {10}Future Work}{102}{section.32}

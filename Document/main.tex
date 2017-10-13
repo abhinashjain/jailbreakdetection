@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\renewcommand{\thesection}{\arabic{section}}
+
+\usepackage[table]{xcolor}
+\usepackage[left=2.0cm,top=2.5cm,right=2.0cm,bottom=2.5cm]{geometry} %margins
+\usepackage{amsthm} % theorem environment
+\usepackage{amsmath} % math
+\usepackage{amssymb} % symbols
+\usepackage{graphics} % for including figures
+\usepackage{graphicx} % for including figures
+\usepackage{setspace} % for doublespacing singlespacing etc.
+\usepackage{datetime} % to write the date in the desired format
+\usepackage[title, titletoc]{appendix}
+\usepackage{subfigure}
+\usepackage[boxruled,linesnumbered]{algorithm2e}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage[square, numbers, comma, sort&compress]{natbib}
+\usepackage{footnote}
+\usepackage{hyperref}
+\usepackage{fixltx2e}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{bm,array}
+\SetAlFnt{\small}
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\pagestyle{plain}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{caption}
+
+\usepackage{fancyhdr}
+
+
+%\graphicspath{{img/}}
+
+\pagestyle{myheadings} 
+
+% % % % % % % % % % % % % % % % %
+
+\newdateformat{monthyear}{\monthname[\THEMONTH], \THEYEAR}
+\def\title{Jailbreak Detection Analysis}
+\def\subtitle{Comparison of jailed and jailbroken system}
+
+\hypersetup{
+	bookmarks=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=0,
+	bookmarksnumbered=true,
+	hypertexnames=false,
+	colorlinks=true,
+	linkcolor={black},
+	citecolor={black},
+	urlcolor={black},
+	breaklinks=true,
+%	pdfauthor={\author},
+	pdftitle={\title}
+}
+
+\begin{document}
+\newcolumntype{C}{>{\bfseries\centering\arraybackslash}p{6.0em}}
+\renewcommand{\arraystretch}{2.5}
+	\thispagestyle{empty}
+	\include{title}
+	\thispagestyle{empty}
+
+	\tableofcontents
+
+	\doublespacing
+	\pagestyle{myheadings}
+
+	\onehalfspace
+	\include{report}
+	\pagenumbering{arabic}
+	
+	\singlespacing
+%	\addcontentsline{toc}{chapter}{Bibliography}
+	
+%	\bibliographystyle{plain}
+%	\bibliography{ref}
+%	\nocite{*}
+
+\end{document}
