@@ -12,6 +12,7 @@ int checkFileStat(char* name);
 int spawnProcess();
 int loadedLibraries();
 int checkFileExistence(char* name);
+int ttySerialPort();
 
 
 //! Project version number for checkSystemState.
