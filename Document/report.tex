@@ -150,6 +150,18 @@ Successful creation and deletion of files on these locations can be considered a
 		}
 	\end{center}
 
+\newpage
+\section{Checking tty serial port}
+\vspace{20px}
+After the jailbreak the /dev/tty.iap might not get open due to resource busy error.\\
+int fd = open(name,O\_RDONLY):
+\begin{enumerate}
+	\item Jailed: may returns "Operation not permitted" error having errno value as 1.
+	\item Jailbroken: may returns "Resource busy" error having errno value as 16.
+\end{enumerate}
+
+Note:\\ 
+This part is tested only on Non-JB (iOS 11.2) and JB (iOS 9.3.3). It needs more testing.
 
 
 \newpage
@@ -1943,6 +1955,7 @@ Again, absence of these optional files can not guarantee that the device is jail
 					/var/stash/usrlib/libcycript.jar(*) & \color{green}No & \color{red}Yes & - & Yes & - & Yes & - & No & - & No\\ \cline{1-11}
 					/var/db/stash(*) & \color{green}No & \color{red}Yes & - & Yes & - & Yes & - & No & - & Yes\\ \cline{1-11}
 					/Applications/Terminal.app(*) & \color{green}No & \color{red}Yes & - & Yes & - & Yes & - & No & - & Yes\\ \cline{1-11}
+					/dev/tty.iap & Yes & Yes & No & No & \color{green}No & \color{red}Yes & \color{green}No & \color{red}Yes & No & No\\ \cline{1-11}
 
 			\end{tabular}
 		}
@@ -2960,6 +2973,7 @@ Extension to the aforementioned tables/files.
 					/private/var/mobile & No & No & 40711 & 40711 & drwx--x--x & drwx--x--x & - & -\\ \cline{1-9}
 					/private/var/mobile/Library & No & No & 40711 & 40711 & drwx--x--x & drwx--x--x & - & -\\ \cline{1-9}
 					/private/var/mobile/Library/Caches & No & No & 40700 & - & drwx------ & - & - & -\\ \cline{1-9}
+					/dev/tty.iap & No & No & 1 & 20666 &  ---------x &  -rw-rw-rw- & - & 0\\ \cline{1-9}
 
 			\end{tabular}
 		}
@@ -2983,6 +2997,7 @@ Tested successfully on the following devices and iOS versions:
 	\item iPad Pro    	:	64-bit	:	9.21		:	Jailed
 	\item iPad Pro    	:	64-bit	:	9.21		:	Jailbroken
 	\item iPad Mini 4 	:	64-bit	:	9.33		: 	Jailbroken
+	\item checks related to "/dev/tty.iap" are tested only on Non-JB (iOS 11.2) and JB (iOS 9.3.3)
 \end{enumerate}
 
 

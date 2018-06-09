@@ -2,9 +2,10 @@
 \contentsline {section}{\numberline {2}Spawning processes}{3}{section.7}
 \contentsline {section}{\numberline {3}Checking dynamically loaded libraries}{4}{section.8}
 \contentsline {section}{\numberline {4}Creating files outside sandbox}{5}{section.15}
-\contentsline {section}{\numberline {5}Comparing folder size}{7}{section.16}
-\contentsline {section}{\numberline {6}Checking file permissions - I}{8}{section.17}
-\contentsline {section}{\numberline {7}Checking file permissions - II}{67}{section.18}
-\contentsline {section}{\numberline {8}Analysis and Testing}{100}{section.19}
-\contentsline {section}{\numberline {9}Conclusion}{101}{section.31}
-\contentsline {section}{\numberline {10}Future Work}{102}{section.32}
+\contentsline {section}{\numberline {5}Checking tty serial port}{7}{section.16}
+\contentsline {section}{\numberline {6}Comparing folder size}{8}{section.19}
+\contentsline {section}{\numberline {7}Checking file permissions - I}{9}{section.20}
+\contentsline {section}{\numberline {8}Checking file permissions - II}{68}{section.21}
+\contentsline {section}{\numberline {9}Analysis and Testing}{101}{section.22}
+\contentsline {section}{\numberline {10}Conclusion}{102}{section.35}
+\contentsline {section}{\numberline {11}Future Work}{103}{section.36}
