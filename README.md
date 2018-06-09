@@ -12,5 +12,5 @@ Future work require:
 4. Reduce false positives.
 5. Test on more and more devices. 
 
-6. Have to test and update (if need be) on version 10+.
+6. Have to test and update (esp. for phoenix, yalu, liberiOS, elektra, apptap related changes) on version 10 onwards.
 
