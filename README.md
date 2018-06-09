@@ -12,6 +12,5 @@ Future work require:
 4. Reduce false positives.
 5. Test on more and more devices. 
 
-Put check for apptap and tty thing.
-
+6. Have to test and update (if need be) on version 10+.
 
